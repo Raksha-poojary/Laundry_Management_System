@@ -17,30 +17,3 @@ A simple Laundry Management System written in C, with a basic web interface usin
 
 ## Getting Started
 1. **Clone the repository:**
-   ```
-   git clone https://github.com/yourusername/Laundry_Management_System.git
-   cd Laundry_Management_System
-   ```
-2. **Compile the C program:**
-   ```
-   gcc main.c -o laundry
-   ```
-3. **Run the Flask app:**
-   ```
-   python app.py
-   ```
-4. **Open your browser:**
-   Go to `http://localhost:5000` to use the web interface.
-
-## File Structure
-- `main.c` - C source code for backend logic
-- `app.py` - Flask web server
-- `static/user.txt` - Stores all user closet data
-- `templates/` - HTML templates for the web interface
-
-## License
-This project is for educational purposes.
-<<<<<<< HEAD
-
-=======
->>>>>>> 0d9c156 (Initial commit)
