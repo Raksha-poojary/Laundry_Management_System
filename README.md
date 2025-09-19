@@ -40,4 +40,7 @@ A simple Laundry Management System written in C, with a basic web interface usin
 
 ## License
 This project is for educational purposes.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d9c156 (Initial commit)
