@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = 'supersecretkey'
 
 def run_c_program(args):
-    exe = os.path.join(os.path.dirname(__file__), 'a.exe')  # Changed to a.exe
+    exe = os.path.join(os.path.dirname(__file__), 'a')  # Changed to a.exe
     if not os.path.exists(exe):
         return 'Backend executable not found.'
     try:
