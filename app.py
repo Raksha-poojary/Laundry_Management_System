@@ -12,7 +12,7 @@ def run_c_program(args):
     if not os.path.exists(exe):
         return 'Backend executable not found.'
     try:
-        result = subprocess.run([exe] + args, capture_output=True, text=True, timeout=10)
+        result = subprocess.run(["./a"] + args, capture_output=True, text=True, timeout=10)
         return result.stdout.strip()
     except Exception as e:
         return f'Error running backend: {e}'
